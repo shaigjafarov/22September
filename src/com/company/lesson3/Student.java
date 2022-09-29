@@ -7,6 +7,6 @@ public class Student {
     public  String surname;
 
     public Student(int deyer) {
-        this.deyer = deyer;
+//        this.deyer = deyer;
     }
 }
