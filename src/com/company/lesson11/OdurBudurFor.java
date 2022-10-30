@@ -5,7 +5,7 @@ public class OdurBudurFor {
 
     public static void main(String[] args) {
         String[] arr = {"Sahil", "Ferid", "Kenan", "Resad", "Cingiz"};
-        int iterasiya = 4, nullCount = 0;
+        int iterasiya = 6, nullCount = 0;
         for (int i = 0, j = 1; ; i++) {
             //array bir cevre kimi islemesi ucun arrayin sonuncu elementiden sonrda indexi birinci yere cekirik
             if (i == arr.length) {
