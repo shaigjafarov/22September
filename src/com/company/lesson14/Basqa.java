@@ -1,6 +1,6 @@
 package com.company.lesson14;
 
-public class Basqa {
+ public class Basqa {
 
      public static String uzunluq(String asdas){
          if(asdas.length()>=5)
@@ -11,4 +11,6 @@ public class Basqa {
              return "beraberdir 5-e";
 
      }
+
+
 }
