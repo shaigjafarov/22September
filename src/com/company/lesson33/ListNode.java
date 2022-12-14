@@ -1,14 +1,14 @@
-package com.company.lesson32;
+package com.company.lesson33;
 
-public class ListNode <T>{
-    public T val;
-    public ListNode<T> next;
+public class ListNode {
+    public int val;
+    public ListNode next;
 
-    ListNode(T val) {
+    ListNode(int val) {
         this.val = val;
     }
 
-    ListNode(T val, ListNode next) {
+    ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }

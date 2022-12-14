@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class SetTest {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         ListNode temp = new ListNode(0);
         int i1 = sc.nextInt();
@@ -52,11 +51,11 @@ public class SetTest {
         temp.next = head;
         head = temp;
         while (head.next != null) {
-            if (head.next.val == val) {
-                head.next = head.next.next;
-            } else {
-                head = head.next;
-            }
+//            if (head.next.val == val) {
+//                head.next = head.next.next;
+//            } else {
+//                head = head.next;
+//            }
         }
         return temp.next;
 
